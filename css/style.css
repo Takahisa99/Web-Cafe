@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@charset "UTF-8";      /* 文字化け防止 */
+
 
 /*　共通部分
 --------------------------------------------*/
@@ -26,6 +27,32 @@ img {
 
 .logo {
     width: 210px;
-    margin-top: 14px;
+    margin-top: 14px;   
+
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a:hover {
+    color: #0bd;
+}
+
+.page-header {
+    display: flex;  /*--横並びの指定--*/
+    justify-content: space-between;   /*--両端の設置の指定--*/
 
 }
